@@ -1,0 +1,107 @@
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using System.Data;
+using System.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
+
+namespace config_service.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ProfileController : ControllerBase
+    {
+        private readonly IConfiguration _configuration;
+        public ProfileController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
+        // Get user name (2023/02/05)
+        [HttpGet]
+        [Route("UserName")]
+        public JsonResult UserName(int id) 
+        {
+            string q = @"select pro_first_name from profile where pro_id = @Id";
+            DataTable table = new DataTable();
+            string sqlDataSource = _configuration.GetConnectionString("ConfigDBConnecion");
+            SqlDataReader myReader;
+            using(SqlConnection myCon = new SqlConnection(sqlDataSource))
+            {
+                myCon.Open();
+                using(SqlCommand myCommand = new SqlCommand(q, myCon))
+                {
+                    myCommand.Parameters.AddWithValue("@Id", id);
+
+                    myReader = myCommand.ExecuteReader();
+                    table.Load(myReader);
+                    myReader.Close();
+                    myCon.Close();
+
+                }
+            }
+            return new JsonResult(table);
+        }
+        
+    }
+}
+
+
+
+
+
+
+////////////////////////////////////////////
+
+
+
+
+
+
+import React, { useState, Component } from "react";
+import { ApiPath } from "../../API/ApiPath";
+
+class NameUser extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      name: "",
+      DataisLoaded: false,
+      va: window.location.pathname.split("/"),
+    };
+  }
+
+  componentDidMount() {
+    fetch(ApiPath.API_URL + "Profile/UserName?id=" + this.state.va[2])
+      .then((res) => res.json())
+      .then((json) => {
+        this.setState({
+          name: json[0].pro_first_name,
+          DataisLoaded: true,
+        });
+      });
+  }
+
+  render() {
+    const { DataisLoaded, name } = this.state;
+    if (!DataisLoaded)
+      return (
+        <div>
+          <h1>...</h1>
+        </div>
+      );
+
+    return (
+      <div
+        style={{
+          paddingTop: "10px",
+          fontSize: "1rem",
+        }}
+      >
+        {name}
+      </div>
+    );
+  }
+}
+
+export default NameUser;

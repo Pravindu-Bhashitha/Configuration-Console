@@ -1,0 +1,98 @@
+.secondbackground{
+  background-color: #FFFFFF;
+  border: solid;
+  border-color: transparent;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+.Box{
+  border: 2px solid rgb(223, 223, 223);
+  border-radius: 2px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+  color: #676a6c;
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.Upper{
+  background-color: rgb(181, 165, 165);
+  padding-top: 10px;
+  vertical-align: middle;
+}
+.Heads{
+  display: flex;
+  margin-left: 20%;
+}
+.head1{
+  margin-right: 0px;
+  color: grey;
+}
+.head2{
+  color: black;
+}
+.notification {
+  background-color: #1ab394;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 5px 16px;
+  position: relative;
+  border-radius: 3px;
+  border: transparent;
+  margin-bottom: 12px;  
+}
+.Notify{
+  font-size: 12px;
+  padding-top: 12px;
+  vertical-align: middle;
+  margin-left: 50px;
+  padding-right: 20px;
+}
+.notification:hover {
+  background: #2b8774;
+}
+.notification .badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  padding: 5px 7px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+.Middle{
+  background-color: #FFFFFF;
+  margin-top: -13.326px;
+}
+.Client{
+  color: grey;
+}
+.Content{
+  color: grey;
+}
+.moredetailslink{
+  color: #1ab394;
+  text-decoration: none;
+}
+.ViewButton{
+  color: #FFFFFF;
+  background-color: #1ab394;
+  border-color: transparent;
+  width:100%; 
+}
+.ViewButton:hover{
+  background-color:#2b8774; 
+  cursor: pointer;
+}
+.Bottom{
+  background-color: #FFFFFF;
+}
+.IMG{
+  border-radius: 20px;
+  margin-right: 7%;
+  margin-left: 5%;
+  width: 8%;
+  height: 8%;
+}

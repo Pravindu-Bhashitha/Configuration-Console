@@ -1,0 +1,41 @@
+.inputtags{
+    color: gray;
+}
+.inputtags:focus{
+    outline-color: #1ab394;
+}
+.editbutton{
+    color: #FFFFFF;
+    background-color: yellow;
+    cursor: pointer;
+    font-size: 24px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin-right: 50px;
+}
+.editbutton:hover{
+    background-color: rgb(168, 168, 52);
+}
+.savebutton{
+    color: #FFFFFF;
+    background-color: #1ab394;
+    cursor: pointer;
+    font-size: 24px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    /* margin-right: 200px; */
+}
+.savebutton:hover{
+    background-color: #2b8774;
+}
+.disablebutton{
+    color: #FFFFFF;
+    background-color: red;
+    cursor: pointer;
+    font-size: 24px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.disablebutton:hover{
+    background-color: rgb(192, 65, 65);
+}

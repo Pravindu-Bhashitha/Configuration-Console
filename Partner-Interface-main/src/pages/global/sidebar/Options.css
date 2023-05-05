@@ -1,0 +1,7 @@
+.Sidebaricon:hover{
+    padding-left: 5px;
+}
+.Sidebaricon:focus{
+    background-color: black;
+    text-decoration: underline;
+}

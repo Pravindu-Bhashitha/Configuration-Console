@@ -1,0 +1,43 @@
+.topbar {
+  background-color: #ffffff;
+}
+.topright {
+  color: grey;
+}
+.logout {
+  margin-right: 10px;
+}
+.toprightbutton {
+  border-color: transparent;
+  border-style: solid;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.inputbase {
+  color: #676a6c;
+  border-color: transparent;
+  background-color: #ffffff;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+.inputbase:focus {
+  outline: transparent;
+}
+.thirdbox {
+  display: flex;
+  background-color: red;
+  border-radius: 1px;
+}
+.searchbutton1{
+  /* border: 1px solid #676a6c; */
+  border: transparent;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.searchbutton1:hover{
+  background-color:#e0e5e9;
+}
+.searchbutton:hover{
+  background-color:#e0e5e9;
+}

@@ -1,0 +1,252 @@
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\appsettings.Development.json
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\appsettings.json
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\config_service.exe
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\config_service.deps.json
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\config_service.runtimeconfig.json
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\config_service.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\config_service.pdb
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\config_service.csproj.AssemblyReference.cache
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\config_service.GeneratedMSBuildEditorConfig.editorconfig
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\config_service.AssemblyInfoInputs.cache
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\config_service.AssemblyInfo.cs
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\config_service.csproj.CoreCompileInputs.cache
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\config_service.MvcApplicationPartsAssemblyInfo.cs
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\config_service.MvcApplicationPartsAssemblyInfo.cache
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.config_service.Microsoft.AspNetCore.StaticWebAssets.props
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.build.config_service.props
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.config_service.props
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.config_service.props
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\staticwebassets.pack.json
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\staticwebassets.build.json
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\staticwebassets.development.json
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\scopedcss\bundle\config_service.styles.css
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\config_service.csproj.CopyComplete
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\config_service.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\refint\config_service.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\config_service.pdb
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\config_service.genruntimeconfig.cache
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\obj\Debug\net6.0\ref\config_service.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\IN2900 - Industry Based Project\Project\CC\Config_Service\config_service\config_service\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\appsettings.Development.json
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\appsettings.json
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\config_service.exe
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\config_service.deps.json
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\config_service.runtimeconfig.json
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\config_service.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\config_service.pdb
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\config_service.csproj.AssemblyReference.cache
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\config_service.GeneratedMSBuildEditorConfig.editorconfig
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\config_service.AssemblyInfoInputs.cache
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\config_service.AssemblyInfo.cs
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\config_service.csproj.CoreCompileInputs.cache
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\config_service.MvcApplicationPartsAssemblyInfo.cs
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\config_service.MvcApplicationPartsAssemblyInfo.cache
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.config_service.Microsoft.AspNetCore.StaticWebAssets.props
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.build.config_service.props
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.config_service.props
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.config_service.props
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\staticwebassets.pack.json
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\staticwebassets.build.json
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\staticwebassets.development.json
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\scopedcss\bundle\config_service.styles.css
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\config_service.csproj.CopyComplete
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\config_service.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\refint\config_service.dll
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\config_service.pdb
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\config_service.genruntimeconfig.cache
+E:\IN2900 - Industry Based Project\E-Solutions\config_service\config_service\obj\Debug\net6.0\ref\config_service.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\appsettings.Development.json
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\appsettings.json
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\config_service.exe
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\config_service.deps.json
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\config_service.runtimeconfig.json
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\config_service.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\config_service.pdb
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.csproj.AssemblyReference.cache
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.AssemblyInfoInputs.cache
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.AssemblyInfo.cs
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.csproj.CoreCompileInputs.cache
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.MvcApplicationPartsAssemblyInfo.cs
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.MvcApplicationPartsAssemblyInfo.cache
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.config_service.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.build.config_service.props
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.config_service.props
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.config_service.props
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets.build.json
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets.development.json
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\scopedcss\bundle\config_service.styles.css
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.csproj.CopyComplete
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\refint\config_service.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.pdb
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.genruntimeconfig.cache
+D:\Acadamic Notes\Software Project\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\ref\config_service.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\appsettings.Development.json
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\appsettings.json
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\config_service.exe
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\config_service.deps.json
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\config_service.runtimeconfig.json
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\config_service.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\config_service.pdb
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.csproj.AssemblyReference.cache
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.GeneratedMSBuildEditorConfig.editorconfig
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.AssemblyInfoInputs.cache
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.AssemblyInfo.cs
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.csproj.CoreCompileInputs.cache
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.MvcApplicationPartsAssemblyInfo.cs
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.MvcApplicationPartsAssemblyInfo.cache
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.config_service.Microsoft.AspNetCore.StaticWebAssets.props
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.build.config_service.props
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.config_service.props
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.config_service.props
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets.pack.json
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets.build.json
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets.development.json
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\scopedcss\bundle\config_service.styles.css
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.csproj.CopyComplete
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\refint\config_service.dll
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.pdb
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.genruntimeconfig.cache
+E:\IN2900 - Industry Based Project\2023-03-04\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\ref\config_service.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\appsettings.Development.json
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\appsettings.json
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\config_service.exe
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\config_service.deps.json
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\config_service.runtimeconfig.json
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\config_service.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\config_service.pdb
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.csproj.AssemblyReference.cache
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.AssemblyInfoInputs.cache
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.AssemblyInfo.cs
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.csproj.CoreCompileInputs.cache
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.MvcApplicationPartsAssemblyInfo.cs
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.MvcApplicationPartsAssemblyInfo.cache
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.config_service.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.build.config_service.props
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.config_service.props
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.config_service.props
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets.build.json
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\staticwebassets.development.json
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\scopedcss\bundle\config_service.styles.css
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.csproj.CopyComplete
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\refint\config_service.dll
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.pdb
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\config_service.genruntimeconfig.cache
+D:\Acadamic Notes\Software Project\E-Solutions-master 17.03.2023\E-Solutions-master\config_service\config_service\obj\Debug\net6.0\ref\config_service.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\appsettings.Development.json
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\appsettings.json
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\config_service.exe
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\config_service.deps.json
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\config_service.runtimeconfig.json
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\config_service.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\config_service.pdb
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.csproj.AssemblyReference.cache
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.AssemblyInfoInputs.cache
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.AssemblyInfo.cs
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.csproj.CoreCompileInputs.cache
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.config_service.Microsoft.AspNetCore.StaticWebAssets.props
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.build.config_service.props
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.config_service.props
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.config_service.props
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets.pack.json
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets.build.json
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\staticwebassets.development.json
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\scopedcss\bundle\config_service.styles.css
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.csproj.CopyComplete
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\refint\config_service.dll
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.pdb
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\config_service.genruntimeconfig.cache
+D:\GitHub Projects\E-Solutions-Pravindu\config_service\config_service\obj\Debug\net6.0\ref\config_service.dll

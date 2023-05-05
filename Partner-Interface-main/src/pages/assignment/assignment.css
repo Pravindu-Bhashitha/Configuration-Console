@@ -1,0 +1,161 @@
+.header1 {
+  color: black;
+  text-align: center;
+}
+.Row {
+  display: flex;
+}
+.first {
+  border: solid;
+  border-color: transparent;
+  margin-right: 35px;
+  width: 33.3%;
+  color: rgb(54, 54, 54);
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+.second {
+  border: solid;
+  border-color: transparent;
+  margin-right: 35px;
+  width: 33.3%;
+  color: rgb(54, 54, 54);
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+
+.third {
+  border: solid;
+  border-color: transparent;
+  width: 33.3%;
+  color: rgb(54, 54, 54);
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+
+.head {
+  color: black;
+  margin-left: 5%;
+}
+.content1 {
+  border: solid;
+  border-radius: 3px;
+  border-color: transparent;
+  background-color: rgb(215, 211, 211);
+  width: 90%;
+  margin-bottom: 8px;
+  margin-left: 5%;
+  border-left: 3.5px solid orange;
+}
+.content2 {
+  border: solid;
+  border-radius: 3px;
+  border-color: transparent;
+  background-color: rgb(215, 211, 211);
+  width: 90%;
+  margin-bottom: 8px;
+  margin-left: 5%;
+  border-left: 3.5px solid #1ab394;
+}
+.content3 {
+  border: solid;
+  border-radius: 3px;
+  border-color: transparent;
+  background-color: rgb(215, 211, 211);
+  width: 90%;
+  margin-bottom: 8px;
+  margin-left: 5%;
+  border-left: 3.5px solid blue;
+}
+.button {
+  cursor: pointer;
+  background-color: whitesmoke;
+  border-radius: 2px;
+  border-color: transparent;
+  color: rgb(54, 54, 54);
+  margin-left: 50%;
+  vertical-align: middle;
+}
+.toggle {
+  --width: 80px;
+  --height: calc(var(--width) / 3);
+  position: relative;
+  display: inline-block;
+  width: var(--width);
+  height: var(--height);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  background-color: rgb(215, 211, 211);
+}
+
+.toggle input {
+  display: none;
+}
+
+.toggle .labels {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  font-family: sans-serif;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+.toggle .labels::after {
+  content: attr(data-off);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: #4d4d4d;
+  background-color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease-in-out;
+  border-radius: 5px;
+}
+
+.toggle .labels::before {
+  content: attr(data-on);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: calc(var(--width) * -1);
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+  background-color: #1ab394;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+  transition: all 0.4s ease-in-out;
+  border-radius: 4px;
+}
+
+.toggle input:checked ~ .labels::after {
+  transform: translateX(var(--width));
+}
+
+.toggle input:checked ~ .labels::before {
+  transform: translateX(var(--width));
+}
+.foot {
+  display: flex;
+  margin-top: 8%;
+  color: rgb(54, 54, 54);
+  background-color: #ffffff;
+}
+.footleft {
+  margin-right: 68.3%;
+}
+.dateswitch {
+  display: flex;
+  font-size: 12px;
+}
