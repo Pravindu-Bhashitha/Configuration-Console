@@ -29,6 +29,10 @@ const AdminPage = (props) => {
                 <Route path="" element={<AdminDashboard />} />
                 <Route path="newPartner" element={<PartnerDetails />} />
                 <Route path="newClient" element={<NewClient />} />
+                <Route
+                  path="newPartner/notifications"
+                  element={<NotificationBox />}
+                />
               </Routes>
             </main>
           </div>
