@@ -10,49 +10,49 @@ const ClientProfileManagment = () => {
   //   navigate("access");
   // };
   return (
-    <div>
-      <h1 style={{ color: "Black", textAlign: "center" }}>
+    <div className="WholePage" style={{height:"90vh",marginLeft:"5%",marginRight:"5%"}}>
+      <h1 style={{ color: "Black", textAlign: "center" ,marginTop:"5%"}}>
         Client Profile Management
       </h1>
       <div>
         <table style={{alignContent:"center", margin:"0px auto", marginTop:"5%", fontSize:"24px"}}>
           <tr style={{marginBottom:"20px",marginBottom:"200px"}}>
             <td style={{marginRight:"20px"}}>
-              <input placeholder="First Name"  className="inputtags"/>
+              <input placeholder="First Name"  className="inputs"/>
             </td>
             <td/>
             <td>
-              <input placeholder="Last Name" className="inputtags"/>
+              <input placeholder="Last Name" className="inputs"/>
             </td>
           </tr>
           <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
           <tr>
             <td>
-              <input placeholder="NIC" className="inputtags"/>
+              <input placeholder="NIC" className="inputs"/>
             </td>
             <td/>
             <td>
-              <input placeholder="Designation" className="inputtags"/>
+              <input placeholder="Designation" className="inputs"/>
             </td>
           </tr>
           <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
           <tr>
             <td>
-              <input placeholder="Mobile No" className="inputtags"/>
+              <input placeholder="Mobile No" className="inputs"/>
             </td>
             <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
             <td>
-              <input placeholder="Server Name" className="inputtags"/>
+              <input placeholder="Server Name" className="inputs"/>
             </td>
           </tr>
           <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
           <tr>
             <td>
-              <input placeholder="Email" className="inputtags"/>
+              <input placeholder="Email" className="inputs"/>
             </td>
             <td/>
             <td>
-              <select placeholder="Assign to Partner" style={{width:"285px", height:"40px",color:"grey"}} className="inputtags">
+              <select placeholder="Assign to Partner" style={{width:"285px", height:"40px",color:"grey"}} className="inputs">
                 <option value="None">None</option>
                 <option value="Pravindu Bhashitha">Pravindu Bhashitha</option>
                 <option value="Tharindu Ruwanpathirana">
@@ -68,7 +68,7 @@ const ClientProfileManagment = () => {
             <button className="savebutton">Save</button>
             </td>
             <td></td>
-            <button className="disablebutton">Disable</button>
+            <button className="disablebutton">Change Password</button>
           </tr>
         </table>
         {/* <div className="buttons">

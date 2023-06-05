@@ -125,8 +125,8 @@ class RegisterNewClient extends Component {
     };
 
     return (
-      <div>
-        <h1 style={{ color: "Black", textAlign: "center" }}>
+      <div className="WholePage" style={{height:"90vh",marginLeft:"5%",marginRight:"5%"}}>
+        <h1 style={{ color: "Black", textAlign: "center",marginTop:"5%" }}>
           Register New Client
         </h1>
         <div>
@@ -148,7 +148,7 @@ class RegisterNewClient extends Component {
                     value={this.state.firstName}
                     onChange={handleInputChange}
                     placeholder="First Name"
-                    className="inputtags"
+                    className="inputs"
                   />
                 </td>
                 <td />
@@ -160,7 +160,7 @@ class RegisterNewClient extends Component {
                     value={this.state.lastName}
                     onChange={handleInputChange}
                     placeholder="Last Name"
-                    className="inputtags"
+                    className="inputs"
                   />
                 </td>
               </tr>
@@ -177,7 +177,7 @@ class RegisterNewClient extends Component {
                     value={this.state.nic}
                     onChange={handleInputChange}
                     placeholder="NIC"
-                    className="inputtags"
+                    className="inputs"
                   />
                 </td>
                 <td />
@@ -189,7 +189,7 @@ class RegisterNewClient extends Component {
                     value={this.state.mobile}
                     onChange={handleInputChange}
                     placeholder="Mobile No"
-                    className="inputtags"
+                    className="inputs"
                   />
                 </td>
               </tr>
@@ -206,7 +206,7 @@ class RegisterNewClient extends Component {
                     value={this.state.email}
                     onChange={handleInputChange}
                     placeholder="Email"
-                    className="inputtags"
+                    className="inputs"
                   />
                 </td>
                 <td>
@@ -222,7 +222,7 @@ class RegisterNewClient extends Component {
                     value={this.state.designation}
                     onChange={handleInputChange}
                     placeholder="Designation"
-                    className="inputtags"
+                    className="inputs"
                   />
                 </td>
               </tr>
@@ -237,8 +237,8 @@ class RegisterNewClient extends Component {
                     name="partnerId"
                     value={this.state.partnerId}
                     onChange={handleInputChange}
-                    style={{ width: "100%", height: "40px" }}
-                    className="inputtags"
+                    style={{ width: "100%", height: "40px",color:"grey" }}
+                    className="inputs"
                   >
                     <option value="-1">Partner</option>
                     {partners.map((partner) => (
@@ -257,7 +257,7 @@ class RegisterNewClient extends Component {
                     value={this.state.server_name}
                     onChange={handleInputChange}
                     placeholder="Server Name"
-                    className="inputtags"
+                    className="inputs"
                   />
                 </td>
               </tr>
