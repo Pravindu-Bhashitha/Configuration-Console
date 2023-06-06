@@ -191,7 +191,7 @@ class RegisterNewPartner extends Component {
     };
 
     return (
-      <div className="WholePage" style={{height:"90vh",marginLeft:"5%",marginRight:"5%"}}>
+      <div>
         <h1 style={{ color: "Black", textAlign: "center" }}>
           Register New Partner
         </h1>
@@ -214,7 +214,7 @@ class RegisterNewPartner extends Component {
                     value={this.state.firstName}
                     onChange={handleInputChange}
                     placeholder="First Name"
-                    className="inputs"
+                    className="inputtags"
                   />
                 </td>
                 <td />
@@ -226,7 +226,7 @@ class RegisterNewPartner extends Component {
                     value={this.state.lastName}
                     onChange={handleInputChange}
                     placeholder="Last Name"
-                    className="inputs"
+                    className="inputtags"
                   />
                 </td>
               </tr>
@@ -243,7 +243,7 @@ class RegisterNewPartner extends Component {
                     value={this.state.email}
                     onChange={handleInputChange}
                     placeholder="Email"
-                    className="inputs"
+                    className="inputtags"
                   />
                 </td>
                 <td />
@@ -253,8 +253,8 @@ class RegisterNewPartner extends Component {
                     name="gender"
                     value={this.state.gender}
                     onChange={handleInputChange}
-                    style={{ width: "100%", height: "40px" ,color:"grey"}}
-                    className="inputs"
+                    style={{ width: "100%", height: "40px" }}
+                    className="inputtags"
                   >
                     <option value="-1">Gender</option>
                     <option value="Male">Male</option>
@@ -275,7 +275,7 @@ class RegisterNewPartner extends Component {
                     value={this.state.password}
                     onChange={handleInputChange}
                     placeholder="Password"
-                    className="inputs"
+                    className="inputtags"
                   />
                 </td>
                 <td>
@@ -291,7 +291,7 @@ class RegisterNewPartner extends Component {
                     value={this.state.rePassword}
                     onChange={handleInputChange}
                     placeholder="Re-Password"
-                    className="inputs"
+                    className="inputtags"
                   />
                 </td>
               </tr>
@@ -306,8 +306,8 @@ class RegisterNewPartner extends Component {
                     name="dept"
                     value={this.state.dept}
                     onChange={handleInputChange}
-                    style={{ width: "100%", height: "40px",color:"grey" }}
-                    className="inputs"
+                    style={{ width: "100%", height: "40px" }}
+                    className="inputtags"
                   >
                     <option value="-1">Department</option>
                     {departments.map((department) => (
@@ -328,8 +328,8 @@ class RegisterNewPartner extends Component {
                     name="supervisor"
                     value={this.state.supervisor}
                     onChange={handleInputChange}
-                    style={{ width: "100%", height: "40px" ,color:"grey"}}
-                    className="inputs"
+                    style={{ width: "100%", height: "40px" }}
+                    className="inputtags"
                   >
                     <option value="-1">Supervisor</option>
                     {admins.map((admin) => (
@@ -353,7 +353,7 @@ class RegisterNewPartner extends Component {
                     value={this.state.mobile}
                     onChange={handleInputChange}
                     placeholder="Mobile No"
-                    className="inputs"
+                    className="inputtags"
                   />
                 </td>
                 <td>
@@ -369,7 +369,7 @@ class RegisterNewPartner extends Component {
                     value={this.state.dob}
                     onChange={handleInputChange}
                     placeholder="Date of Birth (yyyy-mm-dd)"
-                    className="inputs"
+                    className="inputtags"
                   />
                 </td>
               </tr>
@@ -386,7 +386,7 @@ class RegisterNewPartner extends Component {
                     value={this.state.joinedDate}
                     onChange={handleInputChange}
                     placeholder="Joined Date (yyyy-mm-dd)"
-                    className="inputs"
+                    className="inputtags"
                   />
                 </td>
                 <td />

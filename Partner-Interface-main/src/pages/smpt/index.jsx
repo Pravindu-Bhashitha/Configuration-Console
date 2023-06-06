@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
-import "./index.css";
+import "./smtp.css";
 
 const Form = () => {
   return (
@@ -27,7 +27,7 @@ const Form = () => {
             <tr>
               <td className="firstcol">Server Type</td>
               <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-              <td><select placeholder="Assign to Partner" style={{width:"275%",height:"400%"}} className="inputtags">
+              <td><select placeholder="Assign to Partner" style={{width:"275%",height:"20px"}} className="inputtags">
                 <option value="None">None</option>
                 <option value="Server 1">Server 1</option>
                 <option value="Server 2">Server 2</option>

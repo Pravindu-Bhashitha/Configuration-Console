@@ -13,7 +13,7 @@ import AdminDetails from "../getAllDetails/AdminDetails";
 import AllPartnerDetails from "../getAllDetails/AllPartnerDetails";
 import AllClientDetails from "../getAllDetails/AllClientDetails";
 import Access from "../../components/AccessTable";
-import NotificationBox from "../../components/NotificationBox";
+import NotificationBox from "../../components/NotificationBox/NotificationBox";
 
 const SuperAdminPage = (props) => {
   const [theme, colorMode] = useMode();

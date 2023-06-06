@@ -60,6 +60,7 @@
 .inputtags{
   border: 1px solid rgb(223, 223, 223);
   color:#4d4d4d;
+  height: 20px;
 }
 .inputtags:focus{
   outline-color: #1ab394;

@@ -265,11 +265,10 @@
 
 // export default Projects;
 
-
 import React, { useEffect, useState } from "react";
 import { Box, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
-import "./indexNew.css";
+import "./indexnew.css";
 import { HiOutlineRefresh } from "react-icons/hi";
 import { AiFillFolder } from "react-icons/ai";
 import { MdOutlineModeEditOutline } from "react-icons/md";
@@ -392,34 +391,34 @@ const Projects = () => {
           m="8px 0 0 0"
           width="100%"
           height="74vh"
-          // sx={{
-          //   "& .MuiDataGrid-root": {
-          //     border: "none",
-          //   },
-          //   "& .MuiDataGrid-cell": {
-          //     borderBottom: "none",
-          //   },
-          //   "& .name-column--cell": {
-          //     color: colors.greenAccent[300],
-          //   },
-          //   "& .MuiDataGrid-columnHeaders": {
-          //     backgroundColor: colors.blueAccent[700],
-          //     borderBottom: "none",
-          //   },
-          //   "& .MuiDataGrid-virtualScroller": {
-          //     backgroundColor: colors.primary[400],
-          //   },
-          //   "& .MuiDataGrid-footerContainer": {
-          //     borderTop: "none",
-          //     backgroundColor: colors.blueAccent[700],
-          //   },
-          //   "& .MuiCheckbox-root": {
-          //     color: `${colors.greenAccent[200]} !important`,
-          //   },
-          //   "& .MuiDataGrid-toolbarContainer .MuiButton-text": {
-          //     color: `${colors.grey[100]} !important`,
-          //   },
-          // }}
+          sx={{
+            "& .MuiDataGrid-root": {
+              border: "none",
+            },
+            "& .MuiDataGrid-cell": {
+              borderBottom: "none",
+            },
+            "& .name-column--cell": {
+              color: colors.greenAccent[300],
+            },
+            "& .MuiDataGrid-columnHeaders": {
+              backgroundColor: colors.blueAccent[700],
+              borderBottom: "none",
+            },
+            "& .MuiDataGrid-virtualScroller": {
+              backgroundColor: colors.primary[400],
+            },
+            "& .MuiDataGrid-footerContainer": {
+              borderTop: "none",
+              backgroundColor: colors.blueAccent[700],
+            },
+            "& .MuiCheckbox-root": {
+              color: `${colors.greenAccent[200]} !important`,
+            },
+            "& .MuiDataGrid-toolbarContainer .MuiButton-text": {
+              color: `${colors.grey[100]} !important`,
+            },
+          }}
         >
           <div className="all">
             <div className="firstpart">
@@ -443,7 +442,7 @@ const Projects = () => {
               <button className="go">Go!</button>
             </div>
 
-            <div >
+            <div>
               {projects.map((project) => (
                 <div className="thirdpart" key={project.id}>
                   <div className="statusDiv">

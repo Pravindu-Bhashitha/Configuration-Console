@@ -1,0 +1,102 @@
+.heading {
+  color: Black;
+  text-align: center;
+  margin-top: 0;
+}
+
+.row_box {
+  display: flex;
+  justify-content: center;
+}
+
+.row_box_left {
+  margin-right: 20px;
+}
+
+.row_box_right {
+  margin-left: 20px;
+}
+
+.inputtags {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.inputtags:focus {
+  outline: 2px solid #1ab394;
+}
+
+.input_select {
+  width: 245px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.buttons {
+  margin: 8px 0;
+}
+
+.button_edit {
+  color: #fff;
+  margin-right: 20px;
+  padding: 5px 10px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #1ab394;
+  font-size: 1rem;
+  border: 1px solid #1ab394;
+}
+
+.button_edit:hover {
+  background-color: #2b8774;
+  border: 1px solid #2b8774;
+}
+
+.button_save {
+  color: #fff;
+  margin-left: 20px;
+  padding: 5px 10px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #1ab394;
+  font-size: 1rem;
+  border: 1px solid #1ab394;
+}
+
+.button_save:hover {
+  background-color: #2b8774;
+  border: 1px solid #2b8774;
+}
+
+.button_password {
+  color: #fff;
+  padding: 5px 10px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #1ab394;
+  font-size: 1rem;
+  border: 1px solid #1ab394;
+}
+
+.button_password:hover {
+  background-color: #2b8774;
+  border: 1px solid #2b8774;
+}
+
+.row_buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 58px;
+}

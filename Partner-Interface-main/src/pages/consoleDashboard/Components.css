@@ -1,0 +1,22 @@
+.card {
+  background-color: #901aff;
+  width: 250px;
+  height: 200px;
+  margin: 25px;
+  border-color: #350066;
+  border-width: 5px;
+}
+.card-body {
+  color: #fff;
+  text-align: center;
+}
+.linkclass {
+  margin-bottom: 5px;
+  text-align: left;
+}
+a:hover {
+  color: #151415;
+}
+a {
+  color: #fff;
+}

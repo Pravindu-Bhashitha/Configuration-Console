@@ -38,6 +38,10 @@
 .searchbutton1:hover{
   background-color:#e0e5e9;
 }
+.searchbutton1:focus{
+  border:1px solid #1ab394;
+  border-color: #1ab394;
+}
 .searchbutton:hover{
   background-color:#e0e5e9;
 }

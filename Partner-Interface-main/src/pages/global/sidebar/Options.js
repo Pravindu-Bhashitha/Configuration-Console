@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, Sidebar, MenuItem } from "react-pro-sidebar";
 import { useProSidebar } from "react-pro-sidebar";
-// import "./MyProSidebar.css";
+import "./MyProSidebar.css";
 import { useSidebarContext } from "./sidebarContext";
 import { json, Link } from "react-router-dom";
 import { tokens } from "../../../theme";
@@ -10,7 +10,6 @@ import { BsFillGridFill } from "react-icons/bs";
 import { Component } from "react";
 import { ApiPath } from "../../../API/ApiPath";
 import React from "react";
-import "./Options.css"
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -22,9 +21,8 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
       onClick={() => setSelected(title)}
       icon={icon}
       routerLink={<Link to={to} />}
-      className="Sidebaricon"
     >
-      <Typography className="SidebarTitles">{title}</Typography>
+      <Typography>{title}</Typography>
     </MenuItem>
   );
 };
@@ -74,6 +72,11 @@ class Options extends Component {
         title: "Client Profile Management",
         to: "clientprofilemanagement",
       },
+      {
+        id: 9,
+        title: "My Profile",
+        to: "myProfile",
+      },
     ];
     const adminOptions = [
       {
@@ -90,6 +93,11 @@ class Options extends Component {
         id: 3,
         title: "My Clients",
         to: "newClient",
+      },
+      {
+        id: 4,
+        title: "My Profile",
+        to: "myProfile",
       },
     ];
 
@@ -118,6 +126,11 @@ class Options extends Component {
         id: 5,
         title: "SMTP",
         to: "smtp",
+      },
+      {
+        id: 6,
+        title: "My Profile",
+        to: "myProfile",
       },
     ];
 
@@ -155,7 +168,7 @@ class Options extends Component {
       partnerOptions,
       adminOptions,
       selected,
-      setSelected,
+      // setSelected,
     } = this.state;
     if (!DataisLoaded)
       return (
@@ -173,7 +186,7 @@ class Options extends Component {
                 to={menuItem.to}
                 icon={<BsFillGridFill />}
                 selected={selected}
-                setSelected={selected}
+                // setSelected={selected}
               />
             ))}
           </div>
@@ -187,7 +200,7 @@ class Options extends Component {
                 to={menuItem.to}
                 icon={<BsFillGridFill />}
                 selected={selected}
-                setSelected={setSelected}
+                // setSelected={setSelected}
               />
             ))}
           </div>
@@ -201,7 +214,7 @@ class Options extends Component {
                 to={menuItem.to}
                 icon={<BsFillGridFill />}
                 selected={selected}
-                setSelected={setSelected}
+                // setSelected={setSelected}
               />
             ))}
           </div>
