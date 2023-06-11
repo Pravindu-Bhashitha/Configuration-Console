@@ -4,5 +4,13 @@
     font-size: 20px;
     /* margin-left: 50%; */
     width:100%;
-    
+}
+.photo{
+    width: 120px;
+    height: 120px;
+    margin-left: 15%;
+    /* background-color: black; */
+    border-radius: 80px;
+    margin-top: 20px;
+    text-align: center;
 }

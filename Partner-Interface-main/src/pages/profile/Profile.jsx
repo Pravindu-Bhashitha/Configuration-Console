@@ -9,7 +9,7 @@ import "react-confirm-alert/src/react-confirm-alert.css"; // Import css
 import { toast } from "react-toastify";
 
 import "tachyons";
-
+import './custom-confirm-alert.css';
 import ChangePassword from "../../components/ChangePassword/ChangePassword";
 
 // const Profile = () => {
@@ -322,7 +322,6 @@ import ChangePassword from "../../components/ChangePassword/ChangePassword";
 
 // import React from "react";
 // import { Route, Routes, useNavigate, BrowserRouter as Router } from "react-router-dom";
-import Access from "../../components/AccessTable";
 // import "./clientprofilemanagement.css";
 
 const Profile = () => {
@@ -442,6 +441,9 @@ const Profile = () => {
             onClick: () => {},
           },
         ],
+        messageProps: {
+          className: 'custom-confirm-alert-message'
+        }
       });
     }
   };
@@ -450,201 +452,220 @@ const Profile = () => {
     setIsDisabled(false);
   };
   return (
-    <div>
-      <h1 style={{ color: "Black", textAlign: "center" }}>
+    <div
+      className="WholePage"
+      style={{ height: "90vh", marginLeft: "5%", marginRight: "5%" }}
+    >
+      <h1 style={{ color: "Black", textAlign: "center", marginTop: "5%" }}>
         My Profile Management
       </h1>
       <div>
-        <table
-          style={{
-            alignContent: "center",
-            margin: "0px auto",
-            marginTop: "5%",
-            fontSize: "24px",
-          }}
-        >
-          <tr style={{ marginBottom: "20px", marginBottom: "200px" }}>
-            <td style={{ marginRight: "20px" }}>
-              <input
-                type="text"
-                name="pro_first_name"
-                value={data.pro_first_name}
-                onChange={handleInputChange}
-                placeholder="First Name"
-                className="inputtags"
-                disabled={isDisabled}
-                title="First Name"
-              />
-            </td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td>
-              <input
-                type="text"
-                name="pro_last_name"
-                value={data.pro_last_name}
-                onChange={handleInputChange}
-                placeholder="Last Name"
-                className="inputtags"
-                disabled={isDisabled}
-                title="Last Name"
-              />
-            </td>
-          </tr>
-          <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
-          <tr>
-            <td>
-              <input
-                type="email"
-                name="pro_email"
-                value={data.pro_email}
-                onChange={handleInputChange}
-                placeholder="Email"
-                className="inputtags"
-                disabled={isDisabled}
-                title="Email"
-              />
-            </td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td>
-              <input
-                type="text"
-                name="depart"
-                defaultValue={depart}
-                placeholder="Department"
-                className="inputtags"
-                disabled
-                title="Department"
-              />
-            </td>
-          </tr>
-          <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
-          <tr>
-            <td>
-              <input
-                type="text"
-                name="desig"
-                defaultValue={desig}
-                placeholder="Designation"
-                className="inputtags"
-                disabled
-                title="Designation"
-              />
-            </td>
-            <td>
+        <form onSubmit={handleSubmit}>
+          <table
+            style={{
+              alignContent: "center",
+              margin: "0px auto",
+              marginTop: "5%",
+              fontSize: "24px",
+            }}
+          >
+            <tr style={{ marginBottom: "20px", marginBottom: "200px" }}>
+              <td style={{ marginRight: "20px" }}>
+                <input
+                  type="text"
+                  name="pro_first_name"
+                  value={data.pro_first_name}
+                  onChange={handleInputChange}
+                  placeholder="First Name"
+                  className="inputtags"
+                  disabled={isDisabled}
+                  title="First Name"
+                />
+              </td>
+              <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="pro_last_name"
+                  value={data.pro_last_name}
+                  onChange={handleInputChange}
+                  placeholder="Last Name"
+                  className="inputtags"
+                  disabled={isDisabled}
+                  title="Last Name"
+                />
+              </td>
+            </tr>
+            {/* <tr>
               {" "}
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </tr> */}
+            <tr>
+              <td>
+                <input
+                  type="email"
+                  name="pro_email"
+                  value={data.pro_email}
+                  onChange={handleInputChange}
+                  placeholder="Email"
+                  className="inputtags"
+                  disabled={isDisabled}
+                  title="Email"
+                />
+              </td>
+              <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="depart"
+                  defaultValue={depart}
+                  placeholder="Department"
+                  className="inputtags"
+                  disabled
+                  title="Department"
+                />
+              </td>
+            </tr>
+            {/* <tr>
+              {" "}
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </td>
-            <td>
-              <input
-                type="text"
-                name="pro_dob"
-                value={data.pro_dob.substring(0, 10)}
-                onChange={handleInputChange}
-                placeholder="Date of Birth (yyyy-mm-dd)"
-                className="inputtags"
-                disabled={isDisabled}
-                title="Date of Birth"
-                maxLength="10"
-              />
-            </td>
-          </tr>
-          <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
-          <tr>
-            <td>
-              <select
-                id="gender"
-                name="pro_gender"
-                value={data.pro_gender}
-                onChange={handleInputChange}
-                className="input_select"
-                disabled={isDisabled}
-                title="Gender"
-                style={{width:"100%",height:"20px",fontSize:"10px"}}
-              >
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-              </select>
-            </td>
-            <td></td>
-            <td>
-              <input
-                type="text"
-                name="pro_mobile"
-                value={data.pro_mobile}
-                onChange={handleInputChange}
-                placeholder="Mobile No"
-                className="inputtags"
-                disabled={isDisabled}
-                title="Mobile No"
-              />
-            </td>
-          </tr>
-          <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
-          <tr>
-            <td>
-              <input
-                type="text"
-                name="pro_joined_date"
-                defaultValue={data.pro_joined_date.substring(0, 10)}
-                placeholder="Joined Date"
-                className="inputtags"
-                disabled
-                title="Joined Date"
-              />
-            </td>
-            <td></td>
-            <td>
-              <input
-                type="text"
-                name="pro_updated_time"
-                value={
-                  data.pro_updated_time.substring(0, 10) +
-                  " " +
-                  data.pro_updated_time.substring(11, 19)
-                }
-                placeholder="Updated Time"
-                className="inputtags"
-                disabled
-                title="Last Updated Time"
-              />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <button
-                type="button"
-                className="button_edit"
-                onClick={enbleEditing}
-              >
-                Edit
-              </button>
-              <button
-                type="submit"
-                className="button_save"
-                disabled={isDisabled}
-              >
-                Save
-              </button>
-            </td>
-            <td>
-            </td>
-            <td>
-              <button
-                type="button"
-                className="button_password"
-                onClick={() => navigate("changePassword")}
-                Change Password
-                style={{width:"100%",height:"50px",color:"black"}}
-              ></button>
-            </td>
-          </tr>
-        </table>
-        {/* <div className="buttons">
-            <button className="editbutton">Edit</button>
-            <button className="savebutton">Save</button>
-            <button className="disablebutton">Disable</button>
-        </div> */}
+            </tr> */}
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  name="desig"
+                  defaultValue={desig}
+                  placeholder="Designation"
+                  className="inputtags"
+                  disabled
+                  title="Designation"
+                />
+              </td>
+              <td>
+                {" "}
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="pro_dob"
+                  value={data.pro_dob.substring(0, 10)}
+                  onChange={handleInputChange}
+                  placeholder="Date of Birth (yyyy-mm-dd)"
+                  className="inputtags"
+                  disabled={isDisabled}
+                  title="Date of Birth"
+                  maxLength="10"
+                />
+              </td>
+            </tr>
+            {/* <tr>
+              {" "}
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </tr> */}
+            <tr>
+              <td>
+                <select
+                  id="gender"
+                  name="pro_gender"
+                  value={data.pro_gender}
+                  onChange={handleInputChange}
+                  className="input_select"
+                  disabled={isDisabled}
+                  title="Gender"
+                  // style={{width:"100%",height:"20px",fontSize:"10px"}}
+                >
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </td>
+              <td></td>
+              <td>
+                <input
+                  type="text"
+                  name="pro_mobile"
+                  value={data.pro_mobile}
+                  onChange={handleInputChange}
+                  placeholder="Mobile No"
+                  className="inputtags"
+                  disabled={isDisabled}
+                  title="Mobile No"
+                />
+              </td>
+            </tr>
+            {/* <tr>
+              {" "}
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </tr> */}
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  name="pro_joined_date"
+                  defaultValue={data.pro_joined_date.substring(0, 10)}
+                  placeholder="Joined Date"
+                  className="inputtags"
+                  disabled
+                  title="Joined Date"
+                />
+              </td>
+              <td></td>
+              <td>
+                <input
+                  type="text"
+                  name="pro_updated_time"
+                  value={
+                    data.pro_updated_time.substring(0, 10) +
+                    " " +
+                    data.pro_updated_time.substring(11, 19)
+                  }
+                  placeholder="Updated Time"
+                  className="inputtags"
+                  disabled
+                  title="Last Updated Time"
+                />
+              </td>
+            </tr>
+            <tr>
+              {" "}
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </tr>
+            <tr>
+              <td>
+                <button
+                  type="button"
+                  className="button_edit"
+                  onClick={enbleEditing}
+                >
+                  Edit
+                </button>
+                <button
+                  type="submit"
+                  className="button_save"
+                  disabled={isDisabled}
+                >
+                  Save
+                </button>
+              </td>
+              <td></td>
+              <td>
+                <button
+                  type="button"
+                  className="buttonpassword"
+                  onClick={() => navigate("changePassword")}
+                >
+                  Change Password
+                </button>
+              </td>
+            </tr>
+          </table>
+        </form>
       </div>
     </div>
   );

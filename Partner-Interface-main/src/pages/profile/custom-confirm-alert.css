@@ -1,0 +1,15 @@
+/* custom-confirm-alert.css */
+.react-confirm-alert-overlay {
+    background-color: #1ab394; /* Specify your desired background color here */
+  }
+  
+.react-confirm-alert-body {
+    background-color: #61ceb9; /* Specify your desired background color here */
+}
+
+/* custom-confirm-alert.css */
+.custom-confirm-alert-message {
+    color: black; /* Specify your desired message color here */
+  }
+  
+  

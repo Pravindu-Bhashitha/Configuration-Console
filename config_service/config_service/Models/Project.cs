@@ -7,5 +7,6 @@
         public int status { get; set; }
         public int progress { get; set; }
         public string created_at { get; set; }
+
     }
 }

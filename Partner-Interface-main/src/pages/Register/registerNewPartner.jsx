@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import { toast } from "react-toastify";
 import { ApiPath } from "../../API/ApiPath";
+import './registerNewPartner.css';
 class RegisterNewPartner extends Component {
   constructor(props) {
     super(props);
@@ -191,8 +192,8 @@ class RegisterNewPartner extends Component {
     };
 
     return (
-      <div>
-        <h1 style={{ color: "Black", textAlign: "center" }}>
+      <div className="WholePage" style={{height:"90vh",marginLeft:"5%",marginRight:"5%"}}>
+        <h1 style={{ color: "Black", textAlign: "center",marginTop:"5%" }}>
           Register New Partner
         </h1>
         <div>
@@ -203,6 +204,7 @@ class RegisterNewPartner extends Component {
                 margin: "0px auto",
                 marginTop: "5%",
                 fontSize: "24px",
+                marginTop: "5%"
               }}
             >
               <tr style={{ marginBottom: "20px", marginBottom: "200px" }}>
@@ -230,10 +232,10 @@ class RegisterNewPartner extends Component {
                   />
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 {" "}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </tr>
+              </tr> */}
               <tr>
                 <td>
                   <input
@@ -253,7 +255,7 @@ class RegisterNewPartner extends Component {
                     name="gender"
                     value={this.state.gender}
                     onChange={handleInputChange}
-                    style={{ width: "100%", height: "40px" }}
+                    style={{ width: "100%", height: "60px" }}
                     className="inputtags"
                   >
                     <option value="-1">Gender</option>
@@ -262,10 +264,10 @@ class RegisterNewPartner extends Component {
                   </select>
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 {" "}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </tr>
+              </tr> */}
               <tr>
                 <td>
                   <input
@@ -295,10 +297,10 @@ class RegisterNewPartner extends Component {
                   />
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 {" "}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </tr>
+              </tr> */}
               <tr>
                 <td>
                   <select
@@ -306,7 +308,7 @@ class RegisterNewPartner extends Component {
                     name="dept"
                     value={this.state.dept}
                     onChange={handleInputChange}
-                    style={{ width: "100%", height: "40px" }}
+                    style={{ width: "100%", height: "60px" }}
                     className="inputtags"
                   >
                     <option value="-1">Department</option>
@@ -328,7 +330,7 @@ class RegisterNewPartner extends Component {
                     name="supervisor"
                     value={this.state.supervisor}
                     onChange={handleInputChange}
-                    style={{ width: "100%", height: "40px" }}
+                    style={{ width: "100%", height: "60px" }}
                     className="inputtags"
                   >
                     <option value="-1">Supervisor</option>
@@ -340,10 +342,10 @@ class RegisterNewPartner extends Component {
                   </select>
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 {" "}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </tr>
+              </tr> */}
               <tr>
                 <td>
                   <input
@@ -373,10 +375,10 @@ class RegisterNewPartner extends Component {
                   />
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 {" "}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </tr>
+              </tr> */}
               <tr>
                 <td>
                   <input

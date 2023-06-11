@@ -75,9 +75,9 @@ const ChangePassword = () => {
   };
 
   return (
-    <div>
+    <div className="WholePage" style={{height:"90vh",marginLeft:"5%",marginRight:"5%"}}>
       <article
-        className="br3 ba b--black-10 shadow-1 center"
+        // className="br3 ba b--black-10 shadow-1 center"
         style={{
           Color: "silver",
           margin: "20px auto",
@@ -90,10 +90,10 @@ const ChangePassword = () => {
             <h1 className="heading">My Profile Management</h1>
           </div>
           <div className="changePasswordBox">
-            <div>
+            <div style={{ textAlign: "center",marginTop:"10%" }}>
               <p className="changePassword">Change Password</p>
             </div>
-            <div style={{ textAlign: "center" }}>
+            <div style={{marginTop:"10%" }}>
               <form onSubmit={handleSubmit}>
                 <div className="row_box">
                   <input
@@ -106,7 +106,7 @@ const ChangePassword = () => {
                     title="Current Password"
                   />
                 </div>
-                <div className="row_box">
+                <div className="row_box" style={{marginTop:"5%" }}>
                   <input
                     type="password"
                     name="newPassword"
@@ -118,7 +118,7 @@ const ChangePassword = () => {
                   />
                 </div>
 
-                <div className="row_box">
+                <div className="row_box" style={{marginTop:"5%" }}>
                   <input
                     type="password"
                     name="reNewPassword"

@@ -23,6 +23,11 @@
     margin-top: 20px;
     text-align: center;
 }
+
+.box:hover{
+    padding-left: 10px;
+    
+}
 /* .closeopenbutton{
     transition: all 10s ease-in-out;
 }

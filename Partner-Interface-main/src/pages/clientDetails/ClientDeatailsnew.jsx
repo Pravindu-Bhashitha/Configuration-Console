@@ -81,7 +81,7 @@ class ClientDetails extends Component {
                 designation={client.designation}
                 email={client.email}
                 mobile_no={client.mobile_no}
-                profilephoto = {client.profile_photo}
+                client_photo_link = {client.client_photo_link}
               />
             </ol>
           ))}

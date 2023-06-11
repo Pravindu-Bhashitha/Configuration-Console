@@ -5,7 +5,7 @@ import "./ClientDetails.css";
 import logo from "../Images/logo192.png";
 import profilephoto from "../Images/65342 png.png";
 import { NavLink } from "react-router-dom";
-const PartnerBox = ({ first_name, last_name, email, mobile_no }) => {
+const PartnerBox = ({ first_name, last_name, email, mobile_no,photo_link }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
@@ -32,10 +32,10 @@ const PartnerBox = ({ first_name, last_name, email, mobile_no }) => {
         <div>
           <img
             className="IMG"
-            src={profilephoto}
+            src={photo_link}
             alt="Photo"
-            width="30"
-            height="30"
+            width="50px"
+            height="50px"
           ></img>
           <b className="Client">Partner Profile</b>
         </div>
@@ -53,9 +53,11 @@ const PartnerBox = ({ first_name, last_name, email, mobile_no }) => {
           Tel.No. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: {mobile_no}
           <br />
           More details :{" "}
-          <a href="https://www.w3schools.com/" className="moredetailslink">
-            View Partner
-          </a>
+          <NavLink to={"partnermoredetails"}>
+              <a style={{color:"black",textDecoration:"none"}}>
+                More Details
+              </a>
+            </NavLink>
         </div>
       </div>
       <div className="Bottom">

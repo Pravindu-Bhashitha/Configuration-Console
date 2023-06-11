@@ -1,0 +1,8 @@
+.inputs{
+    border-color: transparent;
+    border-bottom: 1px solid #bdbdbd;
+}
+.inputs:focus{
+    outline-color: #1ab394;
+    box-shadow: 0 0 5px #1ab394;
+}

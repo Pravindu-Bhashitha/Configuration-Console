@@ -3,8 +3,13 @@
   text-align: center;
   margin-top: 0;
 }
+.WholePage{
+  border: 1px solid #bed5d1;
+  border-radius: 8px;
+  box-shadow: 0 0 2px 2px #747c7b;
+}
 
-.row_box {
+/* .row_box {
   display: flex;
   justify-content: center;
 }
@@ -15,32 +20,54 @@
 
 .row_box_right {
   margin-left: 20px;
-}
+} */
 
 .inputtags {
-  width: 100%;
+  /* width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: 1rem;
+  border-color: transparent;
+  outline: transparent;
+  outline-color: transparent;
+  border-bottom: 1px solid #bdbdbd;
+  
+  background-color: #fff;
+  color: #747c7b; */
+  font-size: 1.5rem;
+  border: transparent;
+  border-bottom: 1px solid #bdbdbd;
+  margin: 8px 0;
+  padding: 12px 20px;
 }
 
 .inputtags:focus {
-  outline: 2px solid #1ab394;
+  outline-color: #1ab394;
+  box-shadow: 0 0 5px #1ab394;
 }
 
 .input_select {
-  width: 245px;
+  /* width: 245px;
   padding: 12px 20px;
   margin: 8px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+  border-color: transparent;
+  border-bottom: 1px solid #bdbdbd;;
   font-size: 1rem;
+  height: 44px;
+  color: #747c7b; */
+  font-size: 1.5rem;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom: 1px solid #bdbdbd;
+  margin: 8px 0;
+  padding: 0px 120px;
+  color: grey;
+  text-align: left;
 }
-
+.input_select:focus{
+  outline-color: #1ab394;
+  box-shadow: 0 0 5px #1ab394;
+}
 .buttons {
   margin: 8px 0;
 }
@@ -51,6 +78,7 @@
   padding: 5px 10px;
   padding: 12px 20px;
   border-radius: 4px;
+  height: 40px;
   box-sizing: border-box;
   background-color: #1ab394;
   font-size: 1rem;
@@ -68,6 +96,7 @@
   padding: 5px 10px;
   padding: 12px 20px;
   border-radius: 4px;
+  height: 40px;
   box-sizing: border-box;
   background-color: #1ab394;
   font-size: 1rem;
@@ -79,10 +108,13 @@
   border: 1px solid #2b8774;
 }
 
-.button_password {
+.buttonpassword {
   color: #fff;
   padding: 5px 10px;
   padding: 12px 20px;
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
   border-radius: 4px;
   box-sizing: border-box;
   background-color: #1ab394;
@@ -95,8 +127,4 @@
   border: 1px solid #2b8774;
 }
 
-.row_buttons {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 58px;
-}
+

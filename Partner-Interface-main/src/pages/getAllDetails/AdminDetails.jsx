@@ -73,6 +73,7 @@ class AdminDetails extends Component {
                 last_name={admin.pro_last_name}
                 email={admin.pro_email}
                 mobile_no={admin.pro_mobile}
+                profile_photo={admin.PhotoLink}
               />
             </ol>
           ))}

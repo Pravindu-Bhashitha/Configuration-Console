@@ -57,12 +57,12 @@
 .Note2 {
   margin-left: 10px;
 }
-.inputtags{
+.inpu{
   border: 1px solid rgb(223, 223, 223);
   color:#4d4d4d;
   height: 20px;
 }
-.inputtags:focus{
+.inpu:focus{
   outline-color: #1ab394;
   box-shadow: 0 0 5px #1ab394;
 }

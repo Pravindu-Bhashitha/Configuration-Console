@@ -90,9 +90,7 @@
   background-color: #FFFFFF;
 }
 .IMG{
-  border-radius: 20px;
-  margin-right: 7%;
   margin-left: 5%;
-  width: 8%;
-  height: 8%;
+  margin-right: 10%;
+  border-radius: 30px;
 }

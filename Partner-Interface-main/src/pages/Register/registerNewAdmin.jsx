@@ -187,7 +187,8 @@ class RegisterNewAdmin extends Component {
                 margin: "0px auto",
                 marginTop: "5%",
                 fontSize: "24px",
-                marginBottom:"10%"
+                marginBottom:"10%",
+                marginTop: "5%"
               }}
             >
               <tr style={{ marginBottom: "20px", marginBottom: "200px" }}>
@@ -238,7 +239,7 @@ class RegisterNewAdmin extends Component {
                     name="gender"
                     value={this.state.gender}
                     onChange={handleInputChange}
-                    style={{ width: "100%", height: "40px",color:"grey" }}
+                    style={{ width: "100%", height: "50px",color:"grey" }}
                     className="inputs"
                   >
                     <option value="-1">Gender</option>

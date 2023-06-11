@@ -125,8 +125,8 @@ class RegisterNewClient extends Component {
     };
 
     return (
-      <div>
-        <h1 style={{ color: "Black", textAlign: "center" }}>
+      <div className="WholePage" style={{height:"90vh",marginLeft:"5%",marginRight:"5%"}}>
+        <h1 style={{ color: "Black", textAlign: "center",marginTop:"5%" }}>
           Register New Client
         </h1>
         <div>
@@ -237,7 +237,7 @@ class RegisterNewClient extends Component {
                     name="partnerId"
                     value={this.state.partnerId}
                     onChange={handleInputChange}
-                    style={{ width: "100%", height: "40px" }}
+                    style={{ width: "100%", height: "60px" }}
                     className="inputtags"
                   >
                     <option value="-1">Partner</option>

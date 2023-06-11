@@ -8,7 +8,7 @@ import AdminDashboard from "../dashboard/AdminDashbord";
 import PartnerDetails from "../partnerDetails/PartnerDetails";
 import NewClient from "../newClient/NewClient";
 import NotificationBox from "../../components/NotificationBox/NotificationBox";
-
+import ProfileManagement from "../profile/ProfileManagement";
 const AdminPage = (props) => {
   const [theme, colorMode] = useMode();
 
@@ -33,6 +33,7 @@ const AdminPage = (props) => {
                   path="newPartner/notifications"
                   element={<NotificationBox />}
                 />
+                <Route path="myProfile/*" element={<ProfileManagement/>}/>
               </Routes>
             </main>
           </div>

@@ -16,6 +16,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
 
   return (
     <MenuItem
+      className="box"
       active={selected === title}
       style={{ color: colors.grey[100] }}
       onClick={() => setSelected(title)}

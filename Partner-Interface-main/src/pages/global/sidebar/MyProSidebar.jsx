@@ -13,6 +13,7 @@ import NameUser from "./Data";
 import Options from "./Options";
 import { FaBars } from "react-icons/fa";
 import profilephoto from '../../../Images/65342 png.png';
+import ProfilePhoto from "./ProfilePhoto";
 
 const MyProSidebar = () => {
   const theme = useTheme();
@@ -30,7 +31,7 @@ const MyProSidebar = () => {
   }
 
   return (
-    <Box
+    <Box 
       sx={{
         position: "sticky",
         display: "flex",
@@ -69,10 +70,10 @@ const MyProSidebar = () => {
         image={sidebarImage}
       >
         <Menu iconshape="square">
-          <MenuItem
+          <MenuItem 
             icon={
               collapsed && (
-                <FaBars onClick={() => collapseSidebar()} style={{fontSize:"20px"}}/>
+                <FaBars onClick={() => collapseSidebar()} style={{fontSize:"20px"}} />
               // ) : sidebarRTL ? (
               //   <SwitchLeftOutlinedIcon
               //     onClick={() => setSidebarRTL(!sidebarRTL)}
@@ -88,6 +89,7 @@ const MyProSidebar = () => {
               margin: "10px 0 20px 0",
               // color: colors.grey[100],
             }}
+            
           >
             {!collapsed && (
               <Box
@@ -106,6 +108,7 @@ const MyProSidebar = () => {
                     color: "#fff",
                     borderRadius: "2px",
                     fontSize: "14px",
+                    height:"120%"
                   }}
                   onClick={
                     broken ? () => toggleSidebar() : () => collapseSidebar()
@@ -116,13 +119,14 @@ const MyProSidebar = () => {
                       verticalAlign: "middile",
                       paddingBottom: "5px",
                       fontSize: "20px",
+                      marginTop:"10%"
                     }}
                   />
                 </button>
               </Box>
             )}
           </MenuItem>
-          <MenuItem>
+          <MenuItem >
           {!collapsed && (
               <Box
               alignItems="center"
@@ -130,13 +134,14 @@ const MyProSidebar = () => {
               width="100%"
               textAlign="left"
             >
-            <img src={profilephoto} className="photo" alt="profile photo"/>
+            <ProfilePhoto/>
             </Box>
             )}
             </MenuItem>
           {!collapsed && (
-            <Box>
+            <Box >
               <Box
+              
                 style={{ cursor: "pointer" }}
                 marginLeft="70px"
                 marginTop="50px"
@@ -154,7 +159,7 @@ const MyProSidebar = () => {
               </Box>
             </Box>
           )}
-          <Box paddingLeft={collapsed ? undefined : "0%"} fontSize={12}>
+          <Box paddingLeft={collapsed ? undefined : "0%"} fontSize={12} >
             <Options />
           </Box>
         </Menu>

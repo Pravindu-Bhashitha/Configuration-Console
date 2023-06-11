@@ -10,8 +10,8 @@ const ClientProfileManagment = () => {
   //   navigate("access");
   // };
   return (
-    <div>
-      <h1 style={{ color: "Black", textAlign: "center" }}>
+    <div className="WholePage" style={{height:"90vh",marginLeft:"5%",marginRight:"5%"}}>
+      <h1 style={{ color: "Black", textAlign: "center",marginTop:"5%"}}>
         Client Profile Management
       </h1>
       <div>
@@ -52,7 +52,7 @@ const ClientProfileManagment = () => {
             </td>
             <td/>
             <td>
-              <select placeholder="Assign to Partner" style={{width:"285px", height:"40px",color:"grey"}} className="inputtags">
+              <select placeholder="Assign to Partner" style={{width:"285px", height:"60px",color:"grey"}} className="inputtags">
                 <option value="None">None</option>
                 <option value="Pravindu Bhashitha">Pravindu Bhashitha</option>
                 <option value="Tharindu Ruwanpathirana">

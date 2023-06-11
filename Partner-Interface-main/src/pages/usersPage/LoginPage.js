@@ -15,7 +15,6 @@ const LoginPage = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     console.log("Username = " + username);
     console.log("Password = " + password);
 
@@ -72,9 +71,9 @@ const LoginPage = (props) => {
 
   return (
     <div
-      className="container text-center align-items-center justify-content-center padding-auto"
-      // className="whole"
-      style={{ width: "750px", marginTop: "150px" }}
+      // className="container text-center align-items-center justify-content-center padding-auto"
+      className="whole"
+      style={{ width: "750px", marginTop: "150px",textAlign:"center" }}
     >
       <h1 style={{ padding: "auto" }}>Welcome to Client Service Module</h1>
       <div className="row mb-3">

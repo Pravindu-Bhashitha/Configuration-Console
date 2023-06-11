@@ -1,0 +1,14 @@
+.PartnerProfilewhole {
+  border: 1px solid #bed5d1;
+  border-radius: 8px;
+  box-shadow: 0 0 2px 2px #747c7b;
+}
+.PartnerProfileInputs {
+  margin-bottom: 10%;
+  border: transparent;
+  border-bottom: 1px solid #bdbdbd;
+}
+.PartnerProfileInputs:focus {
+  outline-color: #1ab394;
+  box-shadow: 0 0 5px #1ab394;
+}

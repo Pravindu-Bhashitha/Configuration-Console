@@ -9,7 +9,8 @@
 }
 .inputs{
     border-color: transparent;
-    border-bottom: 1px solid #bdbdbd;;
+    border-bottom: 1px solid #bdbdbd;
+    height: 60px;
 }
 .inputs:focus{
     outline-color: #1ab394;

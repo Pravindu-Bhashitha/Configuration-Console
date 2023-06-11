@@ -69,6 +69,7 @@ import Assignment from "../assignment";
 import Smtp from "../smpt";
 import ConsoleManagement from "../consoleDashboard/ConsoleManagement";
 import ProfileManagement from "../profile/ProfileManagement";
+import ClientProfile from "../../components/ProfileDetails/ClientProfile";
 
 const PartnerPage = (props) => {
   const [theme, colorMode] = useMode();
@@ -93,6 +94,9 @@ const PartnerPage = (props) => {
                 <Route path="assignment" element={<Assignment />} />
                 <Route path="smtp" element={<Smtp />} />
                 <Route path="myProfile/*" element={<ProfileManagement />} />
+                <Route
+                path="clientDetails/clientmoredetails" element={<ClientProfile/>}
+                />
               </Routes>
             </main>
           </div>

@@ -73,6 +73,7 @@ class AllPartnerDetails extends Component {
                 last_name={partner.pro_last_name}
                 email={partner.pro_email}
                 mobile_no={partner.pro_mobile}
+                photo_link = {partner.PhotoLink}
               />
             </ol>
           ))}

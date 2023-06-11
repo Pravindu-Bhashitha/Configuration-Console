@@ -23,7 +23,7 @@ namespace config_service.Controllers
         [Route("UserName")]
         public JsonResult UserName(int id)
         {
-            string q = @"select pro_first_name from profile where pro_id = @Id";
+            string q = @"select pro_first_name,PhotoLink from profile where pro_id = @Id";
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("ConfigDBConnecion");
             SqlDataReader myReader;
@@ -360,6 +360,65 @@ namespace config_service.Controllers
                 }
             }
             return new JsonResult(table);
+        }
+
+        // Get Partner Profile details (2023/03/22)
+        [HttpGet]
+        [Route("PartnerProfile")]
+        public JsonResult PartnerProfile(int id)
+        {
+            string q = @"select pro_id, pro_first_name, pro_last_name, pro_email, pro_dept_id, pro_desig_id, pro_dob, pro_gender, pro_mobile, pro_joined_date, pro_updated_time from profile where pro_id = @pID";
+            DataTable table = new DataTable();
+            string sqlDataSource = _configuration.GetConnectionString("ConfigDBConnecion");
+            SqlDataReader myReader;
+            using (SqlConnection myCon = new SqlConnection(sqlDataSource))
+            {
+                myCon.Open();
+                using (SqlCommand myCommand = new SqlCommand(q, myCon))
+                {
+                    myCommand.Parameters.AddWithValue("@pID", id);
+
+                    myReader = myCommand.ExecuteReader();
+                    table.Load(myReader);
+                    myReader.Close();
+                    myCon.Close();
+                }
+            }
+            return new JsonResult(table);
+        }
+
+        // Update Partner Profile details
+        [HttpPut]
+        [Route("UpdatePartnerProfile")]
+        public JsonResult UpdatePartnerProfile(Profile p)
+        {
+            string q = @"update profile 
+                    set pro_first_name = @fName, pro_last_name = @lName, pro_email = @email, pro_dob = @dob, pro_gender = @gender, pro_mobile = @mobile, pro_updated_time = @updatedTime
+                    where pro_id = @pID";
+            DataTable table = new DataTable();
+            string sqlDataSource = _configuration.GetConnectionString("ConfigDBConnecion");
+            SqlDataReader myReader;
+            using (SqlConnection myCon = new SqlConnection(sqlDataSource))
+            {
+                myCon.Open();
+                using (SqlCommand myCommand = new SqlCommand(q, myCon))
+                {
+                    myCommand.Parameters.AddWithValue("@fName", p.pro_first_name);
+                    myCommand.Parameters.AddWithValue("@lName", p.pro_last_name);
+                    myCommand.Parameters.AddWithValue("@email", p.pro_email);
+                    myCommand.Parameters.AddWithValue("@dob", p.pro_dob);
+                    myCommand.Parameters.AddWithValue("@gender", p.pro_gender);
+                    myCommand.Parameters.AddWithValue("@mobile", p.pro_mobile);
+                    myCommand.Parameters.AddWithValue("@updatedTime", DateTime.Now);
+                    myCommand.Parameters.AddWithValue("@pID", p.pro_id);
+
+                    myReader = myCommand.ExecuteReader();
+                    table.Load(myReader);
+                    myReader.Close();
+                    myCon.Close();
+                }
+            }
+            return new JsonResult(1);
         }
     }
 }
