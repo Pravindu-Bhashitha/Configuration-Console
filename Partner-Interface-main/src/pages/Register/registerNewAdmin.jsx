@@ -216,10 +216,10 @@ class RegisterNewAdmin extends Component {
                   />
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 {" "}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </tr>
+              </tr> */}
               <tr>
                 <td>
                   <input
@@ -248,10 +248,10 @@ class RegisterNewAdmin extends Component {
                   </select>
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 {" "}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </tr>
+              </tr> */}
               <tr>
                 <td>
                   <input
@@ -281,10 +281,10 @@ class RegisterNewAdmin extends Component {
                   />
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 {" "}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </tr>
+              </tr> */}
               <tr>
                 <td>
                   <select
@@ -320,10 +320,10 @@ class RegisterNewAdmin extends Component {
                   />
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 {" "}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </tr>
+              </tr> */}
               <tr>
                 <td>
                   <input

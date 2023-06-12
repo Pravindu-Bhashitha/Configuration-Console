@@ -6,13 +6,9 @@ import { useSidebarContext } from "./sidebarContext";
 import { Link } from "react-router-dom";
 import { tokens } from "../../../theme";
 import { useTheme, Box, Typography } from "@mui/material";
-// import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
-// import SwitchRightOutlinedIcon from "@mui/icons-material/SwitchRightOutlined";
-// import SwitchLeftOutlinedIcon from "@mui/icons-material/SwitchLeftOutlined";
 import NameUser from "./Data";
 import Options from "./Options";
 import { FaBars } from "react-icons/fa";
-import profilephoto from '../../../Images/65342 png.png';
 import ProfilePhoto from "./ProfilePhoto";
 
 const MyProSidebar = () => {

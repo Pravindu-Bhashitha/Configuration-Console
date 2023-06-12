@@ -10,7 +10,7 @@ class PartnerDetails extends Component {
       DataisLoaded: false,
       va: window.location.pathname.split("/"),
       currentPage: 1,
-      itemsPerPage: 6, // number of items to be displayed per page
+      itemsPerPage: 6, 
     };
   }
 

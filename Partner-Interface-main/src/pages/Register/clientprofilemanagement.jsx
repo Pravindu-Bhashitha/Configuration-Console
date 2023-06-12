@@ -10,7 +10,7 @@ const ClientProfileManagment = () => {
   //   navigate("access");
   // };
   return (
-    <div className="WholePage" style={{height:"90vh",marginLeft:"5%",marginRight:"5%"}}>
+    <div className="WholePage" style={{marginLeft:"5%",marginRight:"5%"}}>
       <h1 style={{ color: "Black", textAlign: "center",marginTop:"5%"}}>
         Client Profile Management
       </h1>
@@ -25,7 +25,7 @@ const ClientProfileManagment = () => {
               <input placeholder="Last Name" className="inputtags"/>
             </td>
           </tr>
-          <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
+          {/* <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr> */}
           <tr>
             <td>
               <input placeholder="NIC" className="inputtags"/>
@@ -35,7 +35,7 @@ const ClientProfileManagment = () => {
               <input placeholder="Designation" className="inputtags"/>
             </td>
           </tr>
-          <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
+          {/* <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr> */}
           <tr>
             <td>
               <input placeholder="Mobile No" className="inputtags"/>
@@ -45,7 +45,7 @@ const ClientProfileManagment = () => {
               <input placeholder="Server Name" className="inputtags"/>
             </td>
           </tr>
-          <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
+          {/* <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr> */}
           <tr>
             <td>
               <input placeholder="Email" className="inputtags"/>
@@ -70,6 +70,7 @@ const ClientProfileManagment = () => {
             <td></td>
             <button className="disablebutton">Disable</button>
           </tr>
+          <tr> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr>
         </table>
         {/* <div className="buttons">
             <button className="editbutton">Edit</button>

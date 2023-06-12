@@ -22,7 +22,7 @@ namespace config_service.Controllers
         [Route("ClientDetails")]
         public JsonResult ClientDetails(int partnerId)
         {
-            string q = @"select client_id, first_name, last_name, mobile_no, email, designation from client_detail where partner_id = @pId";
+            string q = @"select client_id, first_name, last_name, mobile_no, email, designation, client_photo_link from client_detail where partner_id = @pId";
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("ConfigDBConnecion");
             SqlDataReader myReader;
@@ -138,7 +138,7 @@ namespace config_service.Controllers
         [Route("GetAllClients")]
         public JsonResult GetAllClients()
         {
-            string q = @"select client_id, first_name, last_name, mobile_no, email, designation from client_detail";
+            string q = @"select client_id, first_name, last_name, mobile_no, email, designation, client_photo_link from client_detail";
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("ConfigDBConnecion");
             SqlDataReader myReader;

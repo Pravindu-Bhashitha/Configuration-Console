@@ -192,7 +192,7 @@ class RegisterNewPartner extends Component {
     };
 
     return (
-      <div className="WholePage" style={{height:"90vh",marginLeft:"5%",marginRight:"5%"}}>
+      <div className="WholePage" style={{marginLeft:"5%",marginRight:"5%"}}>
         <h1 style={{ color: "Black", textAlign: "center",marginTop:"5%" }}>
           Register New Partner
         </h1>
@@ -202,7 +202,6 @@ class RegisterNewPartner extends Component {
               style={{
                 alignContent: "center",
                 margin: "0px auto",
-                marginTop: "5%",
                 fontSize: "24px",
                 marginTop: "5%"
               }}

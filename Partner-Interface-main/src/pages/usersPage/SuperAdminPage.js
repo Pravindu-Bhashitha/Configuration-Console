@@ -19,6 +19,8 @@ import ClientProfile from "../../components/ProfileDetails/ClientProfile";
 import PartnerProfile from "../../components/ProfileDetails/PartnerProfile";
 import AdminProfile from "../../components/ProfileDetails/AdminProfile";
 import ConsoleManagement from "../consoleDashboard/ConsoleManagement";
+import AdminDashboard from "../dashboard/AdminDashbord";
+import PartnerDashboard from "../dashboard/PartnerDashboard";
 const SuperAdminPage = (props) => {
   const [theme, colorMode] = useMode();
 
@@ -77,6 +79,12 @@ const SuperAdminPage = (props) => {
                 path="alladmins/adminmoredetails" element={<AdminProfile/>}
                 />
                 <Route path="allclients/*" element={<ConsoleManagement />} />
+                <Route
+                path="alladmins/*" element={<AdminDashboard/>}
+                />
+                <Route
+                path="allpartners/*" element={<PartnerDashboard/>}
+                />
               </Routes>
             </main>
           </div>

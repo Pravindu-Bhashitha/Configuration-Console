@@ -149,7 +149,8 @@
   background-color: #1ab394;
   border-color: transparent;
   border-radius: 2px;
-  margin-right: 3px;
+  margin-right: 30px;
+  margin-bottom: 3px;
   height: 30px;
   cursor: pointer;
 }

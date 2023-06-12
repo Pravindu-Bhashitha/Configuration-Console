@@ -1,0 +1,100 @@
+.body{
+  color: black;
+}
+.newcd  {
+  background-color: #ebe7ee;
+  width: fit-display;
+  height: 58rch;
+  margin: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-color: #0b0a0c;
+  border-width: 1px;
+  width: 90%;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1.8px solid rgb(133, 130, 130);
+ 
+  
+}
+.head {
+  width: fit-display;
+  height: 40px;
+  margin-top: 15px;
+  
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #ffff;
+  border-color: rgb(133, 130, 130);
+  border-top: 1.8px solid rgb(133, 130, 130);
+  border-bottom: 1.8px solid rgb(133, 130, 130);
+}
+.btn {
+  margin-left: 5px;
+}
+h6 {
+  margin: 10px;
+  color: rgb(10, 13, 81);
+  align-items: center;
+}
+tr {
+  margin: 5px;
+}
+td {
+  align-items: center;
+  padding: 5px;
+}
+
+
+
+.card-body console {
+  background-color: #ffff;
+  margin: 20px;
+  border-radius: 2px;
+}
+.newcd-body{
+  background-color: #ffffff;
+  width: fit-display;
+  height: 45rch;
+  margin: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-color: #0b0a0c;
+  border-width: 1px;
+  width: 90%;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1.8px solid rgb(133, 130, 130);
+}
+
+
+
+
+#search{
+  background-color:#ffffff;
+  border: none;
+}
+.input-group{
+  position: relative;
+  margin-top: 0;
+  padding-left: 220px;
+  display: fit-display;
+}
+.data-table{
+  color: black;
+  width: 100%;
+  border: 1px solid rgb(133, 130, 130);
+  border-radius: 2px;
+  
+  
+}
+th{
+  border: 1px solid rgb(133, 130, 130);
+  
+  text-align: left;
+}
+.tbl-item{
+  text-align: left;
+  border-top: 1px solid rgb(133, 130, 130);
+  border-bottom: 1px solid rgb(133, 130, 130);
+}

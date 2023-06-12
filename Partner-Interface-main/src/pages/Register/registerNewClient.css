@@ -13,6 +13,7 @@
     border-color: transparent;
     border-radius: 2px;
     cursor: pointer;
+    margin-bottom: 5%;
 }
 .registerbutton:hover{
     background-color: #2b8774;

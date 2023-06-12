@@ -125,7 +125,7 @@ class RegisterNewClient extends Component {
     };
 
     return (
-      <div className="WholePage" style={{height:"90vh",marginLeft:"5%",marginRight:"5%"}}>
+      <div className="WholePage" style={{marginLeft:"5%",marginRight:"5%"}}>
         <h1 style={{ color: "Black", textAlign: "center",marginTop:"5%" }}>
           Register New Client
         </h1>
@@ -164,10 +164,10 @@ class RegisterNewClient extends Component {
                   />
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 {" "}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </tr>
+              </tr> */}
               <tr>
                 <td>
                   <input
@@ -193,10 +193,10 @@ class RegisterNewClient extends Component {
                   />
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 {" "}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </tr>
+              </tr> */}
               <tr>
                 <td>
                   <input
@@ -226,10 +226,10 @@ class RegisterNewClient extends Component {
                   />
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 {" "}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </tr>
+              </tr> */}
               <tr>
                 <td>
                   <select

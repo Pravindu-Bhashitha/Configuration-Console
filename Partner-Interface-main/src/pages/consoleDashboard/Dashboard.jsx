@@ -8,10 +8,10 @@ import "./Components.css";
 
 function Dashboard() {
   return (
-    <div >
-      <div className="container" style={{width:"75%"}}>
-        <div class="row" style={{marginLeft:"15%",marginTop:"3%",marginBottom:"3%"}}>
-          <div class="col-md-3" style={{marginRight:"15%"}}>
+    <div>
+      <div className="container">
+        <div class="row ">
+          <div class="col-md-3">
             <div className="card">
               <div className="card-body">
                 <h3>Error Log File</h3>
@@ -38,8 +38,8 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div class="row " style={{marginLeft:"15%",marginBottom:"5%"}}>
-          <div class="col-md-3" style={{marginRight:"15%"}}>
+        <div class="row " style={{marginBottom:"5%"}}>
+          <div class="col-md-3">
             <div className="card">
               <div className="card-body">
                 <h3>ReportHosting</h3>

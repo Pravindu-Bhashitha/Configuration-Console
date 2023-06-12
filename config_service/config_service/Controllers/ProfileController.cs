@@ -294,7 +294,7 @@ namespace config_service.Controllers
 
                 }
 
-                q = @"select pro_id, pro_first_name, pro_last_name, pro_email, pro_mobile from profile where pro_id = @pId";
+                q = @"select pro_id, pro_first_name, pro_last_name, pro_email, pro_mobile,PhotoLink from profile where pro_id = @pId";
 
                 for (int i=0; i<table.Rows.Count; i++)
                 {
@@ -321,7 +321,7 @@ namespace config_service.Controllers
         [Route("GetAllAdmins")]
         public JsonResult GetAllAdmins()
         {
-            string q = @"select pro_id, pro_first_name, pro_last_name, pro_email, pro_mobile from profile where pro_desig_id = 2";
+            string q = @"select pro_id, pro_first_name, pro_last_name, pro_email, pro_mobile,PhotoLink,designation from profile where pro_desig_id = 2";
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("ConfigDBConnecion");
             SqlDataReader myReader;
@@ -344,7 +344,7 @@ namespace config_service.Controllers
         [Route("GetAllPartners")]
         public JsonResult GetAllPartners()
         {
-            string q = @"select pro_id, pro_first_name, pro_last_name, pro_email, pro_mobile from profile where pro_desig_id = 3";
+            string q = @"select pro_id, pro_first_name, pro_last_name, pro_email, pro_mobile,PhotoLink,designation from profile where pro_desig_id = 3";
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("ConfigDBConnecion");
             SqlDataReader myReader;
