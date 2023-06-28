@@ -916,11 +916,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Acadamic Notes\\Software Project\\E-Solutions-master 17.03.2023\\E-Solutions-master\\config_service\\config_service\\config_service.csproj",
+      "projectUniqueName": "D:\\GitHub Projects\\E-Solutions-Pravindu\\config_service\\config_service\\config_service.csproj",
       "projectName": "config_service",
-      "projectPath": "D:\\Acadamic Notes\\Software Project\\E-Solutions-master 17.03.2023\\E-Solutions-master\\config_service\\config_service\\config_service.csproj",
+      "projectPath": "D:\\GitHub Projects\\E-Solutions-Pravindu\\config_service\\config_service\\config_service.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\Acadamic Notes\\Software Project\\E-Solutions-master 17.03.2023\\E-Solutions-master\\config_service\\config_service\\obj\\",
+      "outputPath": "D:\\GitHub Projects\\E-Solutions-Pravindu\\config_service\\config_service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

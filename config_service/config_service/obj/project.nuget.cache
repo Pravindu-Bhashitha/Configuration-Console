@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t3fzFt56/NuwZ1f4zrofD2NpFfnKhDxnh8+NzwvL9DO0a3ZajVbMPw4U80V6IRtn3RIlXaz5JxMeRju+yvS4cA==",
+  "dgSpecHash": "4U8PYWTyIS2U8CdvBG60jEpa+5Gh196Hk/iB2LYYdHGtyGLeNdL5hSz7eUjCr9jzM+YUaiFDQ78PQVRRkgYncg==",
   "success": true,
-  "projectFilePath": "D:\\Acadamic Notes\\Software Project\\E-Solutions-master 17.03.2023\\E-Solutions-master\\config_service\\config_service\\config_service.csproj",
+  "projectFilePath": "D:\\GitHub Projects\\E-Solutions-Pravindu\\config_service\\config_service\\config_service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.13\\microsoft.aspnetcore.jsonpatch.6.0.13.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.13\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.13.nupkg.sha512",
